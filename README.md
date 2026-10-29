@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-\### Portfolio Preview
-
-
-
-<p align="center">
-
-&#x20; <img src="screenshots/portfolio-next-ui.jpeg" alt="Ratnesh Pathak Portfolio Next UI Preview" width="100%" />
-
-</p>
-
-
-
-<p align="center">
-
-&#x20; <a href="https://ratnesh-portfolio-next.vercel.app/">
-
-&#x20;   <strong>🚀 Explore the Live Portfolio</strong>
-
-&#x20; </a>
-
-</p>
-
-=======
 # Ratnesh Pathak — Portfolio Next
 
 <p align="center">
@@ -49,14 +25,14 @@
 
 Rather than relying on a conventional static portfolio layout, the experience combines editorial-inspired visual design, purposeful animations, interactive discovery tools, and accessibility-conscious engineering.
 
-The application is deployed on Vercel and built using React, TypeScript, custom CSS, and a custom static-site build pipeline.
+Built with React, TypeScript, custom CSS, and a custom static-site build pipeline, the portfolio is deployed on Vercel.
 
-> **Explore the live experience:** [ratnesh-portfolio-next.vercel.app](https://ratnesh-portfolio-next.vercel.app/)
-
-### Portfolio Preview
+## Portfolio Preview
 
 <p align="center">
-  <img src="screenshots/portfolio-next-ui.jpeg" alt="Ratnesh Pathak Portfolio Next UI Preview" width="100%" />
+  <a href="https://ratnesh-portfolio-next.vercel.app/">
+    <img src="screenshots/portfolio-next-ui.jpeg" alt="Ratnesh Pathak Portfolio Next UI Preview" width="100%" />
+  </a>
 </p>
 
 <p align="center">
@@ -64,6 +40,9 @@ The application is deployed on Vercel and built using React, TypeScript, custom 
     <strong>🚀 Explore the Live Portfolio</strong>
   </a>
 </p>
+
+---
+
 ## Highlights
 
 | Feature | Description |
@@ -83,12 +62,12 @@ The application is deployed on Vercel and built using React, TypeScript, custom 
 
 <p align="center">
   <img src="https://img.shields.io/badge/React-19-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React 19" />
-  <img src="https://img.shields.io/badge/TypeScript-Strictly_Typed-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/Preact-Compatibility_Layer-673AB8?style=flat-square&logo=preact&logoColor=white" alt="Preact" />
-  <img src="https://img.shields.io/badge/GSAP-Animation-88CE02?style=flat-square&logo=greensock&logoColor=black" alt="GSAP" />
-  <img src="https://img.shields.io/badge/CSS-Custom_Design_System-663399?style=flat-square&logo=css&logoColor=white" alt="CSS" />
-  <img src="https://img.shields.io/badge/esbuild-Build_Pipeline-FFCF00?style=flat-square&logo=esbuild&logoColor=black" alt="esbuild" />
-  <img src="https://img.shields.io/badge/Vercel-Deployment-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/Preact-673AB8?style=flat-square&logo=preact&logoColor=white" alt="Preact" />
+  <img src="https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=black" alt="GSAP" />
+  <img src="https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white" alt="CSS" />
+  <img src="https://img.shields.io/badge/esbuild-FFCF00?style=flat-square&logo=esbuild&logoColor=black" alt="esbuild" />
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel" />
 </p>
 
 | Area | Technologies |
@@ -113,11 +92,11 @@ flowchart TD
     A[Portfolio Data] --> B[React + TypeScript UI]
     C[Reusable Components] --> B
     D[Motion and Visual Environment] --> B
+    I[CSS Design Tokens and Themes] --> B
     B --> E[Static HTML Generation]
     F[esbuild and Build Scripts] --> E
     E --> G[dist/ Output]
     G --> H[Vercel Hosting]
-    I[CSS Design Tokens and Themes] --> B
 ```
 
 ## Design & Engineering Decisions
@@ -131,7 +110,7 @@ flowchart TD
 - **Shareable exploration:** Support deep links for project and achievement dialogs.
 - **Build-time validation:** Check important structural, metadata, and asset requirements through verification scripts.
 
-These decisions describe the implementation approach; performance and accessibility should still be validated on real devices and assistive technologies.
+These are implementation choices, not a substitute for testing on real devices and assistive technologies.
 
 ## Project Sections
 
@@ -146,27 +125,9 @@ The portfolio brings together several areas of my professional and personal work
 - **Events:** Hackathons, technical events, and community participation.
 - **Contact:** Professional links, contact information, and résumé access.
 
-For the complete experience, visit the [live portfolio](https://ratnesh-portfolio-next.vercel.app/).
-
-## Screenshots
-
-Screenshots will be added to this showcase as the visual documentation is prepared.
-
-Planned captures:
-
-- `screenshots/hero-desktop.png` — Main landing page
-- `screenshots/projects-explorer.png` — Interactive project explorer
-- `screenshots/project-map.png` — Connected project map
-- `screenshots/command-palette.png` — Keyboard-driven navigation
-- `screenshots/interactive-terminal.png` — Terminal interface
-- `screenshots/achievements.png` — Achievements and events
-- `screenshots/mobile-view.png` — Responsive mobile experience
-
-*These are planned screenshot filenames, not existing image files. Images will be included as they are captured.*
-
 ## Live Demo
 
-**[Launch Portfolio Next →](https://ratnesh-portfolio-next.vercel.app/)**
+**[🚀 Launch Portfolio Next](https://ratnesh-portfolio-next.vercel.app/)**
 
 The live site is hosted on Vercel. The deployed experience may evolve as new improvements and content updates are released.
 
@@ -176,9 +137,10 @@ The application's source code is maintained in a separate private repository.
 
 - **Live application:** [ratnesh-portfolio-next.vercel.app](https://ratnesh-portfolio-next.vercel.app/)
 - **GitHub profile:** [github.com/RatneshPathak](https://github.com/RatneshPathak)
-- **Public project showcase:** This repository
+- **Public showcase:** [ratnesh-portfolio-next-showcase](https://github.com/RatneshPathak/ratnesh-portfolio-next-showcase)
+- **Source code:** Maintained privately by the author.
 
-The public showcase contains project documentation and approved screenshots only. It does not distribute the private application's source code, build scripts, configuration, or repository history.
+This public repository contains project documentation and approved screenshots only. It does not distribute the private application's source code, build scripts, configuration, or repository history.
 
 ## About the Developer
 
@@ -189,15 +151,13 @@ My work spans machine learning, computer vision, data analytics, research, appli
 I'm also the founder of **Team Ignites**, where I work on technology-driven ideas and projects.
 
 <p align="center">
-  <a href="https://www.linkedin.com/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
   <a href="https://github.com/RatneshPathak">
     <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://ratnesh-portfolio-next.vercel.app/">
     <img src="https://img.shields.io/badge/Portfolio-Explore-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
   </a>
+  <!-- Add your verified LinkedIn profile URL here when ready. -->
 </p>
 
 ---
@@ -207,4 +167,3 @@ I'm also the founder of **Team Ignites**, where I work on technology-driven idea
   <br />
   <i>Building thoughtful interfaces and impactful technology.</i>
 </p>
->>>>>>> 55642e3847ca776dabd4a2fdeafebdd4599373ce
