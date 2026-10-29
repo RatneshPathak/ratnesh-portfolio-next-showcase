@@ -29,6 +29,17 @@ The application is deployed on Vercel and built using React, TypeScript, custom 
 
 > **Explore the live experience:** [ratnesh-portfolio-next.vercel.app](https://ratnesh-portfolio-next.vercel.app/)
 
+### Portfolio Preview
+
+<p align="center">
+  <img src="screenshots/portfolio-next-ui.jpeg" alt="Ratnesh Pathak Portfolio Next UI Preview" width="100%" />
+</p>
+
+<p align="center">
+  <a href="https://ratnesh-portfolio-next.vercel.app/">
+    <strong>🚀 Explore the Live Portfolio</strong>
+  </a>
+</p>
 ## Highlights
 
 | Feature | Description |
